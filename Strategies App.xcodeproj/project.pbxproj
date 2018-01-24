@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		87DF1A6D2018876000EA04B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF1A6C2018876000EA04B7 /* AppDelegate.m */; };
-		87DF1A702018876100EA04B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF1A6F2018876100EA04B7 /* ViewController.m */; };
 		87DF1A732018876100EA04B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DF1A712018876100EA04B7 /* Main.storyboard */; };
 		87DF1A752018876100EA04B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DF1A742018876100EA04B7 /* Assets.xcassets */; };
 		87DF1A782018876100EA04B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DF1A762018876100EA04B7 /* LaunchScreen.storyboard */; };
 		87DF1A7B2018876100EA04B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF1A7A2018876100EA04B7 /* main.m */; };
+		87DF1A83201888B400EA04B7 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF1A82201888B400EA04B7 /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87DF1A682018876000EA04B7 /* Strategies App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strategies App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DF1A6B2018876000EA04B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87DF1A6C2018876000EA04B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87DF1A6E2018876000EA04B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87DF1A6F2018876100EA04B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87DF1A722018876100EA04B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87DF1A742018876100EA04B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DF1A772018876100EA04B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DF1A792018876100EA04B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87DF1A7A2018876100EA04B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87DF1A81201888B400EA04B7 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		87DF1A82201888B400EA04B7 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				87DF1A6B2018876000EA04B7 /* AppDelegate.h */,
 				87DF1A6C2018876000EA04B7 /* AppDelegate.m */,
-				87DF1A6E2018876000EA04B7 /* ViewController.h */,
-				87DF1A6F2018876100EA04B7 /* ViewController.m */,
+				87DF1A81201888B400EA04B7 /* HomeVC.h */,
+				87DF1A82201888B400EA04B7 /* HomeVC.m */,
 				87DF1A712018876100EA04B7 /* Main.storyboard */,
 				87DF1A742018876100EA04B7 /* Assets.xcassets */,
 				87DF1A762018876100EA04B7 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87DF1A702018876100EA04B7 /* ViewController.m in Sources */,
+				87DF1A83201888B400EA04B7 /* HomeVC.m in Sources */,
 				87DF1A7B2018876100EA04B7 /* main.m in Sources */,
 				87DF1A6D2018876000EA04B7 /* AppDelegate.m in Sources */,
 			);
@@ -279,8 +279,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R45Y65LA5;
+				DEVELOPMENT_TEAM = KCF55SN56F;
 				INFOPLIST_FILE = "Strategies App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AceLight.Strategies-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,8 +294,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R45Y65LA5;
+				DEVELOPMENT_TEAM = KCF55SN56F;
 				INFOPLIST_FILE = "Strategies App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AceLight.Strategies-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
